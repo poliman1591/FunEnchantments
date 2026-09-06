@@ -1,0 +1,18 @@
+name: FunEnchantments
+version: 1.0.0
+main: ru.poliman1591.funenchantments.FunEnchantments
+api-version: '1.20'
+
+author: poliman1591
+description: Custom enchantments for Paper 1.20.1
+
+commands:
+  fenchant:
+    description: Управление кастомными чарами
+    usage: /fenchant
+    permission: funenchantments.admin
+
+permissions:
+  funenchantments.admin:
+    description: Администрирование FunEnchantments
+    default: op
